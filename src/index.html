@@ -6,7 +6,7 @@
   <link href="../dist/output.css" rel="stylesheet">
   <script src="calc.js"></script>
 </head>
-<body class="flex justify-center">
+<body class="flex justify-center bg-blue-200">
     <div class="border-2 border-black mt-28 w-700px p-2 bg-slate-900" >
         <span class="font-serif font-extrabold text-4x1 ml-4 h-8 text-white">casio</span>
         <div class="flex justify-center mb-10">
@@ -14,25 +14,25 @@
         </div>
         <div class="flex justify-center">
             <div class="grid grid-cols-4 gap-4" style="width: 50vh;">
-                <button onclick="display.value = ''" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">AC</button>
-                <button onclick="display.value = display.value.toString().slice(0, -1)" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">DE</button>
-                <button onclick="display.value += '%'"class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">%</button>
-                <button onclick="display.value += '/'"class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">/</button>
-                <button onclick="display.value += 7"class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">7</button>
-                <button onclick="display.value += 8"class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">8</button>
-                <button onclick="display.value += 9"class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">9</button>
-                <button onclick="display.value += '*'" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">x</button>
-                <button onclick="display.value += 4" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">4</button>
-                <button onclick="display.value += 5" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">5</button>
-                <button onclick="display.value += 6" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">6</button>
-                <button onclick="display.value += '-'" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">-</button>
+                <button onclick="display.value = ''" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-red-600 hover:bg-red-300 rounded-lg">AC</button>
+                <button onclick="display.value = display.value.toString().slice(0, -1)" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-orange-500 hover:bg-orange-300 rounded-lg">DE</button>
+                <button onclick="display.value += '%'"class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">%</button>
+                <button onclick="display.value += '/'"class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">/</button>
+                <button onclick="display.value += 7"class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">7</button>
+                <button onclick="display.value += 8"class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">8</button>
+                <button onclick="display.value += 9"class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">9</button>
+                <button onclick="display.value += '*'" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">x</button>
+                <button onclick="display.value += 4" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">4</button>
+                <button onclick="display.value += 5" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">5</button>
+                <button onclick="display.value += 6" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">6</button>
+                <button onclick="display.value += '-'" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">-</button>
                 <button onclick="display.value += 1" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">1</button>
-                <button onclick="display.value += 2" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">2</button>
-                <button onclick="display.value += 3" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">3</button>
-                <button onclick="display.value += '+'" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">+</button>
-                <button onclick="display.value += 0" class="col-span-2 border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">0</button>
-                <button onclick="display.value += '.'" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">.</button>
-                <button onclick="calculate()" class="border-black border-2 h-14 font-serif font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">=</button>
+                <button onclick="display.value += 2" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">2</button>
+                <button onclick="display.value += 3" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">3</button>
+                <button onclick="display.value += '+'" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">+</button>
+                <button onclick="display.value += 0" class="col-span-2 border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">0</button>
+                <button onclick="display.value += '.'" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">.</button>
+                <button onclick="calculate()" class="border-black border-2 h-14 font-mono font-extrabold text-3x1 bg-slate-300 hover:bg-orange-300 rounded-lg">=</button>
             </div>
         </div>
     </div>
